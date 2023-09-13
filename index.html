@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <!-- hola como estas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="/Main/Styles.css">
+    <script src="/Main/ContainerChange.js" defer></script>  <!-- Defer means do last -->
+</head>
+<body>
+    <!-- <p>BigJesus</p>  -->
+    <main>
+        <div id="HeaderPic">
+            <img src="/Main/Pic.jpg" id="ProfilePicture" alt="Picture of me">
+            <p id="HeaderNameTag">Steven Sparringa</p>
+        </div>
+        <nav>
+            <ul>
+                <button class="NavButtons" onclick="SwitchPage('CVPage')">CV</button>
+                <button class="NavButtons" onclick="SwitchPage('ProjectsPage')">Projects</button>
+                <button class="NavButtons" onclick="SwitchPage('WorksPage')">Works</button>
+            </ul>
+        </nav>
+
+
+    </main>
+    <div id="Container">
+        <!-- Pages here -->
+        <section id="CV">
+            <h1 id="MainContentCV">CV</h1>
+
+        </section>
+        <section id="Projects">
+            <h1>Projects</h1>
+
+        </section>
+        <section id="Works">
+            <h1>Works</h1>
+            
+        </section>
+    </div>
+
+</body>
+</html>
