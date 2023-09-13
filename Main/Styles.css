@@ -6,18 +6,24 @@
 body {
     margin: 0;
     background-color: rgb(82, 82, 82);
+    background-image:url(Wallpaper.jpg); 
+    background-size: cover;
     filter: drop-shadow(0 0 10vw black);
 }
+
 
 main {
     margin: auto;
     width: 65vw;
     /* background: linear-gradient(.10turn, red 0%, black 50%); */
-    background-color: beige;
+    background-color: rgba(245, 245, 220, 0.397);
     display: flex;
     flex-direction: column;
     
+    filter: drop-shadow(0 0 2px black);
     gap: 1vw;
+}
+#HeaderNameTag {
 }
 
 nav {
@@ -35,7 +41,7 @@ nav > ul{
     font-size: calc(var(--FontSize) * .8);
     text-decoration: none;
     font-weight: bold;
-    background-color: rgb(172, 172, 136);
+    background-color: rgba(180, 180, 131, 0.651);
     padding: 1vw;
     border-radius: .2vw;
     text-align: center;
@@ -67,10 +73,10 @@ nav > ul{
 
 #Container {
     margin: auto;
-    border-radius: 2.5vw;
+    border-radius: 1.5vw;
     width: 90vw;
     /* background: linear-gradient(.10turn, red 0%, black 50%); */
-    background-color: beige;
+    background-color: rgba(245, 245, 220, 0.555);
     display: flex;
     flex-direction: column;
     filter: drop-shadow(0 0 10vw black);

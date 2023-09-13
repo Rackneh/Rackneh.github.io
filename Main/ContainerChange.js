@@ -11,17 +11,18 @@ function SwitchPage(switched) {
     {
         case "CVPage":
         {
-            CVPage.classList.add("active")
+            CVPage.classList.add("active");
+            window.scrollto(CVPage.getBoundingClientRect().x + 30,CVPage.getBoundingClientRect().y);
             break;
         }
         case "ProjectsPage" :
         {
-            ProjectPage.classList.add("active")
+            ProjectPage.classList.add("active");
             break;
         }
         case "WorksPage" :
         {
-            WorkPage.classList.add("active")
+            WorkPage.classList.add("active");
             break;
         }
     }
