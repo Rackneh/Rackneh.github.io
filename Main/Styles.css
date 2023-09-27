@@ -111,13 +111,13 @@ nav > ul{
 
     width: 12vw;
     color:black;
-    /* transition: color 500ms; */
-    /* border: solid .02vw black; */
+    transition: color 500ms;
+
     border: none;
 }
-/* .NavButtons:hover {
+.CVPageNavButtons:hover {
     color: red;
-} */
+}
 
 #ChildContainer {
     margin: auto;
@@ -137,7 +137,7 @@ nav > ul{
 #ChildContainer > section {
     display: none;
 }
-#ChildContainer > section.active {
+#Container > section.active {
     display: block;
 }
 

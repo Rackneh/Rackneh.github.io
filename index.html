@@ -7,6 +7,7 @@
     <title>Rackneh's Hangout</title>
     <link rel="stylesheet" href="./Main/Styles.css">
     <script src="./Main/ContainerChange.js" defer></script>  <!-- Defer means do last -->
+    <script src="./Main/ChildContainerChange.js" defer></script> 
 </head>
 <body>
     <!-- <p>BigJesus</p>  -->
@@ -38,13 +39,13 @@
                 Steven.sparringa@hotmail.com
                 </p>
             <ul id="CVbuttons">
-                <button class="CVPageNavButtons" onclick="SwitcChildhPage('ExperiencePage')">Ervaring</button>
-                <button class="CVPageNavButtons" onclick="SwitchChildPage('SchoolPage')">Opleidingen</button>
-                <button class="CVPageNavButtons" onclick="SwitchChildPage('SkillPage')">Vaardigheden</button>
+                <button class="CVPageNavButtons" onclick="SwitchChildPage('ExperiencePage')">Ervaring</button>
+                <button class="CVPageNavButtons" onclick="SwitchChildPage('SchoolsPage')">Opleidingen</button>
+                <button class="CVPageNavButtons" onclick="SwitchChildPage('SkillsPage')">Vaardigheden</button>
             </ul>
-        </p>
-            <div id="ChildContainer">
-                <section id="Experience">
+            <div id="Container">
+                <section id="Ervaring">
+                    <h1>Ervaring</h1>
                     Werkervaring
                     Vakkenvuller & Caissière
                     Jumbo Geleen - Geleen
@@ -61,7 +62,8 @@
                     Tot het restaurant failliet verklaard was heb ik er 6 jaar gewerkt.
                     In deze tijd ben ik gegaan van afwasser naar Ober.
                 </section>
-                <section id="School">
+                <section id="Opleidingen">
+                    <h1>Opleidingen</h1>
                     Opleiding
                     MBO 3-4 in ICT
                     Vista College - Sittard-Geleen
@@ -73,7 +75,8 @@
                     Leeuwenborgh - Sittard
                     augustus 2015 tot juli 2016
                 </section>
-                <section id="Skills">
+                <section id="Vaardigheden">
+                    <h1>Vaardigheden</h1>
                 Vaardigheden
                 • Excel (2 jaren)
                 • Java (4 jaren)
@@ -86,7 +89,7 @@
                 • Engels - Vloeiend
                 </section>
             </div>
-
+            </p>
         </section>
         <section id="Projects">
             <h1>Projects</h1>
