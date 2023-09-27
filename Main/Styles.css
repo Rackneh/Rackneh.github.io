@@ -11,6 +11,11 @@ body {
     filter: drop-shadow(0 0 10vw black);
 }
 
+#ProfilePicture {
+    border-radius: 100vw;
+    width: 20vw;
+    height: 20vw;
+}
 
 main {
     margin: auto;
@@ -23,8 +28,7 @@ main {
     filter: drop-shadow(0 0 2px black);
     gap: 1vw;
 }
-#HeaderNameTag {
-}
+
 
 nav {
     margin: auto;
@@ -65,10 +69,76 @@ nav > ul{
     margin: auto;
 }
 
-#ProfilePicture {
+
+#CVname {
+    margin: 14px;
+    text-align: center;
+    padding: 1vw;
+    vertical-align: middle;
+    gap: 1vw;
+}
+
+#CVdata {
+    /* width: 14px; */
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+#Contactinfo {
+    text-align: center;
+
+}
+#CVico {
     border-radius: 100vw;
-    width: 20vw;
-    height: 20vw;
+    width: 2vw;
+    height: 2vw;
+    
+}
+
+#CVbuttons {
+    text-align: center;
+}
+
+.CVPageNavButtons {
+    font-size: calc(var(--FontSize) * .8);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgba(180, 180, 131, 0.651);
+    padding: 1vw;
+    border-radius: .2vw;
+
+    width: 12vw;
+    color:black;
+    /* transition: color 500ms; */
+    /* border: solid .02vw black; */
+    border: none;
+}
+/* .NavButtons:hover {
+    color: red;
+} */
+
+#ChildContainer {
+    margin: auto;
+    border-radius: 1.5vw;
+    width: 90vw;
+    /* background: linear-gradient(.10turn, red 0%, black 50%); */
+    background-color: rgba(245, 245, 220, 0.555);
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(0 0 10vw black);
+
+    gap: 1vw;
+}
+#ChildContainer > * {
+    margin: auto;
+}
+#ChildContainer > section {
+    display: none;
+}
+#ChildContainer > section.active {
+    display: block;
 }
 
 #Container {
