@@ -101,7 +101,7 @@ nav > ul{
     text-align: center;
 }
 
-.CVPageNavButtons {
+.ChildPageNavButtons {
     font-size: calc(var(--FontSize) * .8);
     text-decoration: none;
     font-weight: bold;
@@ -115,7 +115,7 @@ nav > ul{
 
     border: none;
 }
-.CVPageNavButtons:hover {
+.ChildPageNavButtons:hover {
     color: red;
 }
 
